@@ -1,0 +1,8 @@
+<resources><string name="app_name"></string><string name="main_app_name">Boxed AR</string><string name="action_settings">Settings</string><!--<string name="object_vertex">2131034116</string>
+    <string name="object_fragment">2131034115</string>
+    <string name="screenquad_vertex">2131034128</string>
+    <string name="screenquad_fragment_oes">2131034121</string>
+    <string name="plane_vertex">2131034119</string>
+    <string name="plane_fragment">2131034118</string>
+    <string name="point_cloud_vertex">2131034120</string>
+    <string name="passthrough_fragment">2131034117</string>--></resources>
