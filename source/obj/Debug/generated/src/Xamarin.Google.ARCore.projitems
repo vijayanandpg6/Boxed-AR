@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Anchor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Annotations.INativeEnum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Annotations.IUsedByNative.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Annotations.IUsedByReflection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Annotations.NativeEnumAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Annotations.UsedByNativeAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Annotations.UsedByReflectionAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.ArCoreApk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.ArImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.AugmentedFace.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.AugmentedImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.AugmentedImageDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.CameraConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.CameraConfigFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.CameraIntrinsics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Coordinates2d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.AnchorNotSupportedForHostingException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.CameraNotAvailableException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.CloudAnchorsNotConfiguredException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.DataInvalidFormatException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.DataUnsupportedVersionException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.DeadlineExceededException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.FatalException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.ImageInsufficientQualityException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.MissingGlContextException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.NotTrackingException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.NotYetAvailableException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.ResourceExhaustedException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.SessionNotPausedException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.SessionPausedException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.TextureNotSetException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnavailableApkTooOldException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnavailableArcoreNotInstalledException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnavailableDeviceNotCompatibleException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnavailableException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnavailableSdkTooOldException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnavailableUserDeclinedInstallationException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Exceptions.UnsupportedConfigurationException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Frame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.HitResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.ImageFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.ImageMetadata.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.InstallActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.ITrackable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.LightEstimate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Plane.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.PointCloud.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Pose.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.Session.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.SharedCamera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.TrackableBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.TrackingFailureReason.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.AR.Core.TrackingState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.DynamiteClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.ILoadedInstanceCreator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.INativeLibraryLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.IObjectWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.IUsedByNative.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.IUsedByReflection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.ObjectWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.UsedByNativeAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Google.VR.Dynamite.Client.UsedByReflectionAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

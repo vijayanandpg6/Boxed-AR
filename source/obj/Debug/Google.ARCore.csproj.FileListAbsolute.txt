@@ -1,0 +1,6 @@
+D:\Projects\AR-Apps-V2\source\bin\Debug\Xamarin.Google.ARCore.dll
+D:\Projects\AR-Apps-V2\source\bin\Debug\Xamarin.Google.ARCore.pdb
+D:\Projects\AR-Apps-V2\source\obj\Debug\Google.ARCore.csproj.CoreCompileInputs.cache
+D:\Projects\AR-Apps-V2\source\obj\Debug\Xamarin.Google.ARCore.dll
+D:\Projects\AR-Apps-V2\source\obj\Debug\Xamarin.Google.ARCore.pdb
+D:\Projects\AR-Apps-V2\source\obj\Debug\Google.ARCore.csprojAssemblyReference.cache
