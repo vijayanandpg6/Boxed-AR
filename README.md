@@ -1,6 +1,8 @@
 # Boxed-AR  :tada: 
+---
+##### An android application using Xamarin .NET, Google AR Core and Open-GL to estimate sizes of carton boxes using A/R.
+<img alt="demo gif" src="https://github.com/vijayanandpg6/Boxed-AR/blob/main/files/walk-through1.gif" width="600" height="300" />
 
-An android application using Xamarin .NET, Google AR Core and Open-GL to estimate sizes of carton boxes using A/R.
 ---
 What does it do? :sparkles:
 * An android application to estimate the size of carton box needed to package an item, in real time.
@@ -11,7 +13,9 @@ What does it do? :sparkles:
 * Visual marker cubes and virtual Carton box is rendered on screen as real time 3D object  using OpenGL.
 * Dimensions are calculated based on the anchors & reference, then displayed to the user as length, breadth, height, surface area and volume.
 ---
-Android Native A/R application using below :sparkles:
+<img alt="demo gif" src="https://github.com/vijayanandpg6/Boxed-AR/blob/main/files/walk-through2.gif" width="600" height="300" />
+
+Android A/R application using below :sparkles:
 * C# .NET Xamarin 4.12
 * Xamarin.Android SDK 9.1
 * Google.ARCore 1.12
@@ -21,3 +25,9 @@ Android Native A/R application using below :sparkles:
 * Tools – Visual Studio 2017, Xamarin Android Emulator
 * Target framework Android 8.1 Oreo – API 27
 * Minimum Android 7.0 Nougat – API 24
+---
+Download & install the APK file <a id="raw-url" href="https://github.com/vijayanandpg6/Boxed-AR/blob/main/files/Squad.BoxedAR.apk">Here</a>
+
+<img alt="demo gif" src="https://github.com/vijayanandpg6/Boxed-AR/blob/main/files/walk-through3.gif" width="600" height="300" />
+
+---
